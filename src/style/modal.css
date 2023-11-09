@@ -1,9 +1,9 @@
 #controller__Modal{
-    position: absolute;
-    top: 50%;
+    position: fixed;
+    top: 10%;
     left: 0;
-
-    max-width: 1200px;
+    margin:0 auto;
+    max-width: 1000px;
     max-height: fit-content;
     border-radius: 25px;
     border: none;
@@ -12,20 +12,21 @@
 }
 
 .container__Modal{
-    width: 642px;
-    height: 674px;
+    right: 25%;
+    width: 600px;
+    height: 550px;
     padding-left: 30px;
-    padding-top: 20px; 
+    padding-top: 20px;
     border-radius: 20px;
     background-color: var(--background-color-three);
-    color: var(--primary-color-text); 
-    margin-bottom: 30%; 
+    color: var(--primary-color-text);
+    margin-bottom: 30%;
 }
 .Header__modal{
    display: flex;
    justify-content: space-between;
    padding: 20px;
-   font-size: 30px;
+   font-size: 20px;
    font-weight: 700;
    font-style: normal;
 
@@ -33,7 +34,7 @@
 .close__Modal{
     margin-right: 50px;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 700;
     background: none;
     color: var(--primary-color-text);
@@ -42,42 +43,44 @@
 
 .main__modal{
     display: flex;
-    flex-direction: column; 
-    gap: 30px;
+    flex-direction: column;
+    gap: 20px;
     width: 552px;
-    padding: 20px;
+    padding: 10px;
     font-size: 20px;
     font-weight: 600;
 }
 
 
 .main__modal input{
-    width: 552px;
-    height: 71px;
+    width: 100%;
+    height: 65px;
     margin-bottom: 10px;
     margin-top: -10px;
     border-radius: 10px;
     border: 3px solid #FFF;
     background: #14111C;
-    font-size: 30px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
     color:var(--primary-color-text);
 
 }
 
 .main__modal textarea{
-    width: 552px;
-    height: 185px;
+    width: 100%;
+    height: 130px;
     border-radius: 10px;
     border: 3px solid #FFF;
     background: #14111C;
-    font-size: 30px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
     color:var(--primary-color-text);
 
 }
 .modal__button{
     width: 336px;
     height: 71px;
-   
+
     color: var(--primary-color-text);
 }
 
@@ -85,7 +88,7 @@
 
     text-align: center;
     margin-right: 60px;
-    margin-top: 40px; 
+    margin-top: 25px;
 }
 .footer__modal button{
     width: 336px;
@@ -99,7 +102,7 @@
 }
 
 .fade{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
