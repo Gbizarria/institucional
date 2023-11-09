@@ -42,6 +42,9 @@ header{
     text-decoration: none;
     color: var(--primary-color-text);       
 }
+.list__item a:hover{
+    color: var(--background-color-two);
+}
 
 
 
