@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url(./header.css);
+@import url(./article.css);
+@import url(./main.css);
+@import url(./cards.css);
+@import url(./footer.css);
+@import url(./modal.css);
+@import url(./menuBurguer.css);
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        
+}
+body{
+    font-family: 'Inter', sans-serif;
+    max-width: 100%
+;
+
+}
+:root{  
+    --background-color-one:#332b47;
+    --background-color-two:#AD92F1;
+    --background-color-three:#14111c;
+
+    --background-button-color-one: #8F78C6;
+    --background-button-color-tow:  #705E9C;
+    
+
+
+    --primary-color-text: #fff;
+    --secundary-color-text:#000;
+
+
+}
+

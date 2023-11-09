@@ -1,0 +1,78 @@
+@import url(./globalStyle.css);
+main{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;  
+    gap: 50px;  
+    
+}
+
+.aboutUs{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    padding: 15px;
+    gap: 10px;
+    @media (max-width: 799px) {
+        margin-top: -30px;
+    }
+
+}
+
+.aboutUs__title{
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.aboutUs__text{
+    line-height: normal;  
+    font-weight: 400;
+}
+
+
+.contact{
+    background: rgba(143, 120, 198, 0.35);
+    width: 100%;
+    height: 228px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--secundary-color-text);  
+}
+.contact__title{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contact__text{
+    font-size: 20px;
+    font-weight:400;
+    font-style: normal;
+    line-height: normal;
+    @media (max-width: 799px) {
+        margin-left: 24px;
+        text-align: center;
+    }
+  
+   
+}
+
+.contact__button{
+    width: 210px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: var( --background-button-color-tow);
+    color:var(--primary-color-text);
+    font-size: 20px; ;
+    font-weight: 400 ;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    
+}

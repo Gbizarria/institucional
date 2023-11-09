@@ -1,0 +1,75 @@
+@import url(./globalStyle.css);
+.ContainerCards{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    position: relative;
+    padding: 15px;
+    
+
+    @media (max-width:799px) {
+        flex-direction: column;
+         margin-top:90px;
+    }
+   
+}
+.ContainerCards__title{
+    font-size: 25px;
+    font-weight: 700;  
+    position: absolute;
+    top: -40px;  
+    
+}
+
+.cards__item{
+    width: 242px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 80px;
+    gap: 40px;
+    border-radius: 20px;
+    background-color: var(--background-color-two);
+   
+    @media (max-width:850px) {
+        height: 110px;
+        width: 100%;
+        margin: 0;
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        padding: 10px;
+        padding-left: 20px;
+      
+                
+    }
+  
+}
+
+.Card__button{
+    width: 133px;
+    height: 31px;
+    border: none;
+    border-radius: 8px;
+    background-color: var(--background-button-color-one);
+    color:var(--secundary-color-text);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+
+    @media (max-width:850px) {
+        /* width: 300px;
+        position: absolute;
+        z-index: 1;
+        margin-top: 80px;
+        margin-left: 5px; 
+        border-radius: none;
+        background-color: transparent; */
+
+        display: none;
+
+    }  
+}
+
